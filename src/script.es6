@@ -34,7 +34,7 @@ function draw() {
     requestAnimationFrame(draw);
     p.move();
     p.draw();
-
+    console.log("hoi");
 }
 
 var p = new Particle();
